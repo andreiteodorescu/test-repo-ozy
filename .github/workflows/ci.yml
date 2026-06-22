@@ -1,7 +1,6 @@
 name: CI
 on: [pull_request]
-jobs:
-    test:
+  test:
       runs-on: ubuntu-latest
       steps:
-        - run: echo "checks passing
+        - run: echo ok
